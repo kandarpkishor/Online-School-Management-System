@@ -1,0 +1,53 @@
+.form
+{
+	Padding:10px;
+	border:0px solid red;
+	width:90%;
+	margin:auto;
+}
+.form td
+{
+	border:0px solid blue;
+	text-align:left;
+	//width:150px;
+}
+.form data{}
+
+.form text
+{
+	width:250px;
+	padding:5px;
+	border-radius:3px;
+	height:35px;
+}
+.form submit
+{
+	padding:7px;
+	color:#fff;
+	background:#0098cb;
+	width:200px;
+	margin:0px;
+	margin-top:10px;
+	border:0px;
+	border-radius:3px;
+	cursor:pointer;	
+	height:35px;
+	font-size:18px;
+}
+.form file
+{
+	width:200px;
+	background:#0098cb;
+	border:1px solid blue;
+	margin-bottom:10px;
+}
+.form submit:hover
+{
+	background:#0098eb;
+}
+.form select
+{
+	width:250px;
+	padding:5px;
+}
+		

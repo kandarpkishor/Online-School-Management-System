@@ -1,0 +1,197 @@
+
+
+
+
+.menu {
+font:12px Verdana;
+padding-left: 0%; /*offset of tabs relative to browser left edge*/
+text-align: center;
+alignment:center;
+height:35px;
+line-height:35px;
+background: #00897B;
+width:100%;
+}
+.menu ul {
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+alignment: center;
+display:inline;
+
+}
+
+/*Top level list items*/
+.menu ul li {
+position: relative;
+display: inline;
+float: left;
+background: #00897B;
+background-image:url(back.jpg);
+width:14.27%;
+}
+/*Top level menu link items style*/
+.menu ul li  a{
+display: block;
+padding: 0px 2px 0px 2px;
+//margin-right: 5px; /*spacing between tabs*/
+//margin-left:5px;
+color: white;
+font-size: 14px;
+//font-weight: bold;
+text-decoration: none;
+display:block;
+border-right: 1px solid white;
+}
+.menu ul li ul li a {
+font: normal 14px Verdana;
+width:190px; /*width of sub menus*/
+background: #353375;
+color: #ffffff;
+padding: 7px 0px;
+//border-top: 1px solid #1E1D41;
+font-size: 14px;
+//width: 80px;
+height:25px;
+}
+.menu ul li ul a  {
+display: block;
+padding: 0px 2px 0px 2px;
+//margin-right: 5px; /*spacing between tabs*/
+//margin-left:5px;
+color: white;
+font-size: 15px;
+//font-weight: bold;
+text-decoration: none;
+display:block;
+border-right: 1px solid white;
+}
+
+.menu ul li a:hover {
+	//color: blue;
+background-color: lightgreen;
+color:red;
+//background-color:#00899B;
+	}
+
+	
+/*1st sub level menu*/
+.menu ul li ul {
+position: absolute;
+left: 0;
+display: none;
+//border-top: 1px solid #1E1D41;
+//width: 100%;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.menu ul li ul li {
+display: block;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.menu ul li ul li ul {
+top: 0;
+}
+
+/* Sub level menu links style */
+
+.menu ul li:hover> ul{
+	display: block;
+	z-index:300;
+}
+
+.menu ul li ul li a:hover { /*sub menus hover style*/
+//background: #8482C8;
+background-color: lightgreen;
+color:red;
+}
+/*.sidenav {
+    height:95%;
+    width: 0;
+    //position: fixed;
+    z-index:5000;
+    //top: 0;
+    //left: 0;
+	background: #00897B;
+    //background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+	margin-top:0px;
+	float:left;
+}
+
+.sidenav a {
+   padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    //color: #818181;
+	color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    //color: #f1f1f1;
+	color:red;
+	background:lightgreen;
+}
+
+.sidenav .closebtn {
+    position: relative;
+    top: -40px;
+    right: -40px;
+    font-size: 36px;
+    //margin-left: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.active
+{
+	background-color: lightgreen;
+	color:red;
+}*/
+.sidenav {
+    height: 90%;
+    width: 0;
+    position: fixed;
+	
+    z-index: 1;
+    top: 200px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

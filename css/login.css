@@ -1,0 +1,60 @@
+body {
+
+	background: lightgreen;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	//width:1000px;
+	align:center;
+margin:auto;
+
+}
+ .head{
+	 Height:100px;
+	 Width:100%;
+	 Float:left;
+	 //Background:red;
+	 Text-Align:center;
+	 clear: both;
+	}
+input[type="text"],input[type="password"],input[type="email"],input[type="date"],input[type="password"]
+{
+	display:block;
+	outline: none;
+	border-radius:5px;
+	border:1px solide #eee;
+	width:300px;
+	padding:10px;
+	
+}
+input[type="submit"]
+{
+	padding:10px;
+	color:#fff;
+	background:#0098cb;
+	width:300px;
+	margin:20px auto;
+	margin-top:0px;
+	border:0px;
+	border-radius:3px;
+	cursor:pointer;
+	
+	
+	
+}
+input[type="submit"]:hover
+{
+	background:#0098eb;
+}
+input[type="reset"]
+{
+	padding:10px;
+	color:#fff;
+	background:#0098fb;
+	width:300px;
+	margin:20px auto;
+	margin-top:0px;
+	border:0px;
+	border-radius:3px;
+	cursor:pointer;
+}

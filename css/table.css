@@ -1,0 +1,33 @@
+.table
+	{
+		//height:100%;
+		width:90%;
+		border:1px solid blue;
+		margin:auto;
+		background:lightblue;
+		border-radius:5px;
+		padding:3px;
+	}
+.table th
+	{
+		//width:10%;
+		background:blue;
+		height:40px;
+	}
+.table tr, .table td
+	{
+		background:white;
+		border:1px solid red;
+		height:30px;
+	}
+.input
+{
+	height:30px;
+	width:200px;
+	//background:
+	border:1px solid blue;
+	border-radius:5px;
+	padding:5px;
+	margin-top:30px;
+	
+}

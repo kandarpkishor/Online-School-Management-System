@@ -1,0 +1,311 @@
+	body{
+			background:lightblue;
+		}
+		.profdiv
+{
+	width:140px;
+	height:160px;
+	border:2px solid black;
+	background:white;
+	display:block;
+}
+.profpic
+{
+	display:none;
+	position:relative;
+	top:-50%;
+	z-index:5;
+	padding-top:15px;
+	padding-right:3px;
+	padding-left:3px;
+	margin:auto;
+	//margin-left:15px;
+	height:40px;
+	width:110px;
+	//background-color:white;
+}
+.profpic a
+{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	//font-size:100%;
+}
+.profpic a:hover
+{
+	text-decoration:underline;
+	color:red;
+	font-weight:bold;
+}
+.profdiv:hover>.profpic
+{
+	display:block;
+	//opacity:0.6;
+	transparent:transparent;
+}
+		.main
+		{
+			width:100%;
+			height:1000px;
+			margin:auto;
+			background:lightgrey;
+		}
+		.header_cont
+		{
+			overflow:hidden;
+			height:120px;
+			width:100%;
+			background:red;
+			text-align:center;
+			//opacity:0.5;
+			
+		}
+		.header
+		{
+			height:120px;
+			width:80%;
+			background:blue;
+			text-align:center;
+			//opacity:0.5;
+			margin:0px;
+			padding:0px;
+			float:left;
+			//background-image:url(image/header.jpg);
+		}
+		.profile
+		{
+			height:120px;
+			width:20%;
+			background:cyan;
+			text-align:center;
+			//opacity:0.6;
+			margin:0px;
+			padding:0px;
+			float:right;
+		}
+		.left
+		{
+			height:80%;
+			width:0px;
+			background:cyan;
+			color:red;
+			margin:10px 0px;
+			padding:0px;
+			float:left;
+			text-align:center;
+			
+		}
+		
+		.temp_container
+		{
+			height:90%;
+			width:100%;
+			//width:100%;
+			background:lightcyan;
+			//background-image:url(../image/c.jpg);
+			color:black;
+			//margin:10px;
+			margin-bottom:0px;
+			margin-right:0px;
+			padding:0px;
+			float:left;
+			text-align:center;
+			overflow:auto;
+			
+		}
+		.tamplet
+		{
+			height:160px;
+			width:140px;
+			background:green;
+			//background-image:url(click02.jpg);
+			color:white;
+			margin:25px;
+			padding:5px;
+			float:left;
+			text-align:center;
+			//opacity:0.8;
+			box-shadow:0 0 5px 5px grey;
+		}
+		.bot
+		{
+			float:left;
+			//height:50px;
+			height:5%;
+			width:100%;
+			background:grey;
+			color:white; 
+			margin:0px;
+			margin-bottom:0px;
+			//margin-right:0px;
+			//margin-left:10px;
+			padding:0px 0px 0px 0px; 
+			//font-style:italic;
+			//text-align:center;
+		}
+		.warning
+		{
+			color:red;
+			font-weight:bold;
+		}
+		#school{width:180px; height:40px; //float:left; padding-top:52px; margin:auto;text-align:center; font-family:Tahoma, Geneva, sans-serif; size:14px; text-decoration:none; font-weight:bold; margin-top:5px;}
+.Student_Inquiry{background: url(../image/icon/student-inquiry.png) center 0px no-repeat; color:#bdbcbc;}
+.Student_Inquiry:hover{background: url(../image/icon/student-inquiry.png) center -115px no-repeat; color:#990000;}
+
+
+
+.Notice_Board{background: url(../image/icon/notice_icon.png) center 0px no-repeat; color:#bdbcbc;}
+.Notice_Board:hover{background: url(../image/icon/notice_icon.png) center -115px no-repeat; color:#990000;}
+.Activities_Events{background: url(../image/icon/ActivityIcon.png) center 0px no-repeat; color:#bdbcbc;}
+.Activities_Events:hover{background: url(../image/icon/ActivityIcon.png) center -115px no-repeat; color:#990000;}
+
+.school_admini{background: url(../image/icon/school-administra.jpg) center 0px no-repeat; color:#bdbcbc;}
+
+.school_admini:hover{background: url(../image/icon/school-administra.jpg) center -115px no-repeat; color:#990000;}
+.school_academy{background: url(../image/icon/school-academy.jpg) center 0px no-repeat; color:#bdbcbc;}
+.school_academy:hover{background: url(../image/icon/school-academy.jpg) center -115px no-repeat; color:#990000;}
+.finance{background: url(../image/icon/finance.jpg) center 0px no-repeat; color:#bdbcbc;}
+.finance:hover{background: url(../image/icon/finance.jpg) center -115px no-repeat; color:#990000;}
+.student_roll{background: url(../image/icon/student-roll.png) center 0px no-repeat; color:#bdbcbc;}
+.student_roll:hover{background: url(../image/icon/student-roll.png) center -115px no-repeat; color:#990000;}
+.attendance{background: url(../image/icon/attendance.jpg) center 0px no-repeat; color:#bdbcbc;}
+.attendance:hover{background: url(../image/icon/attendance.jpg) center -115px no-repeat; color:#990000;}
+.communication{background: url(../image/icon/communication.jpg) center 0px no-repeat; color:#bdbcbc;}
+.communication:hover{background: url(../image/icon/communication.jpg) center -115px no-repeat; color:#990000;}
+.content-mana{background: url(../image/icon/content.jpg) center 0px no-repeat; color:#bdbcbc;}
+.content-mana:hover{background: url(../image/icon/content.jpg) center -115px no-repeat; color:#990000;}
+.library{background: url(../image/icon/library.jpg) center 0px no-repeat; color:#bdbcbc;}
+.library:hover{background: url(../image/icon/library.jpg) center -115px no-repeat; color:#990000;}
+.reports{background: url(../image/icon/report.jpg) center 0px no-repeat; color:#bdbcbc;}
+.reports:hover{background: url(../image/icon/report.jpg) center -115px no-repeat; color:#990000;}
+.hr-management{background: url(../image/icon/hr-management.jpg) center 0px no-repeat; color:#bdbcbc;}
+.hr-management:hover{background: url(../image/icon/hr-management.jpg) center -115px no-repeat; color:#990000;}
+.text_1{color:#171743; font-size:13px; font-weight:bold; text-decoration:none;}
+.text_1 a, .text_1 a:visited{color:#171743; font-size:13px; font-weight:bold; text-decoration:none;}
+.text_1 a:hover{color:#990000; font-size:13px; font-weight:bold; text-decoration:none;}
+.bullet1 {font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#555555; text-decoration:none; }
+.bullet1 ul{margin:0; padding:0 0 0 24px; }
+.bullet1 ul li{line-height:25px; list-style-image:url(../../../image/icon/arrow1.png);}
+.bullet2 {font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#555555; text-decoration:none; }
+.bullet2 ul{margin:0; padding:0 0 0 24px; }
+.bullet2 ul li{line-height:25px; list-style-image:url(wp-content/uploads/2012/07/arrow51.gif);}
+		
+		#school_administrative
+		{
+			width:188px; 
+			height:40px; 
+			float:left; 
+			padding-top:55px; 
+			text-align:center; 
+			font-family:Tahoma, Geneva, sans-serif; 
+			size:14px; 
+			text-decoration:none; 
+			font-weight:bold; 
+			margin-top:20px; 
+		}
+		.admission
+		{
+			background: url(../image/icon/administrative-admission.png) center 0px no-repeat; 
+			color:#bdbcbc;
+		}
+		.admission:hover
+		{
+			background: url(../image/icon/administrative-admission.png) center -115px no-repeat;
+			color:#990000;
+		}
+		
+		.Student_Search{background: url(../image/icon/search-student.jpg) center 0px no-repeat; color:#bdbcbc;}
+.Student_Search:hover{background: url(../image/icon/search-student.jpg) center -115px no-repeat; color:#990000;}
+		
+		.staff-detail{background: url(../image/icon/staff-detail.png) center 0px no-repeat; color:#bdbcbc;}
+	.staff-detail:hover{background: url(../image/icon/staff-detail.png) center -115px no-repeat; color:#990000;}
+	.student-detail{background: url(../image/icon/students-detail.png) center 0px no-repeat; color:#bdbcbc;}
+	.student-detail:hover{background: url(../image/icon/students-detail.png) center -115px no-repeat; color:#990000;}
+	.transport{background: url(../image/icon/transport.png) center 0px no-repeat; color:#bdbcbc;}
+	.transport:hover{background: url(../image/icon/transport.png) center -115px no-repeat; color:#990000;}
+	.inventary{background: url(../image/icon/inventary.png) center 0px no-repeat; color:#bdbcbc;}
+	.inventary:hover{background: url(../image/icon/inventary.png) center -115px no-repeat; color:#990000;}
+	.event{background: url(../image/icon/event.png) center 0px no-repeat; color:#bdbcbc;}
+	.event:hover{background: url(../image/icon/event.png) center -115px no-repeat; color:#990000;}
+	.certificate{background: url(../image/icon/certification.png) center 0px no-repeat; color:#bdbcbc;}
+	.certificate:hover{background: url(../image/icon/certification.png) center -115px no-repeat; color:#990000;}
+	.notice{background: url(../image/icon/notice.png) center 0px no-repeat; color:#bdbcbc;}
+	.notice:hover{background: url(../image/icon/notice.png) center -115px no-repeat; color:#990000;}
+	.id-card{background: url(../image/icon/idcard-genera.png) center 0px no-repeat; color:#bdbcbc;}
+	.id-card:hover{background: url(../image/icon/idcard-genera.png) center -115px no-repeat; color:#990000;}
+	.hostel{background: url(../image/icon/hostel.png) center 0px no-repeat; color:#bdbcbc;}
+	.hostel:hover{background: url(../image/icon/hostel.png) center -115px no-repeat; color:#990000;}
+	.Student_Promotion{background: url(../image/icon/Promotion.png) center 0px no-repeat; color:#bdbcbc;}
+	.Student_Promotion:hover{background: url(../image/icon/Promotion.png) center -115px no-repeat; color:#990000;}
+	.Notifications{background: url(../image/icon/notification-icon.png) center 0px no-repeat; color:#bdbcbc;}
+	.Notifications:hover{background: url(../image/icon/notification-icon.png) center -115px no-repeat; color:#990000;}
+	.Student_Diary{background: url(../image/icon/student-diary.png) center 0px no-repeat; color:#bdbcbc;}
+	.Student_Diary:hover{background: url(../image/icon/student-diary.png) center -115px no-repeat; color:#990000;}
+	.Syllabus{background: url(../image/icon/Syllabus.png) center 0px no-repeat; color:#bdbcbc;}
+	.Syllabus:hover{background: url(../image/icon/Syllabus.png) center -115px no-repeat; color:#990000;}
+	.Student_Co_Details{background: url(../image/icon/Student_Co_Details.png) center 0px no-repeat; color:#bdbcbc;}
+	.Student_Co_Details:hover{background: url(../image/icon/Student_Co_Details.png) center -115px no-repeat; color:#990000;}
+	#school_acade{width:188px; height:40px; float:left; padding-top:55px; text-align:center; font-family:Tahoma, Geneva, sans-serif; size:14px; text-decoration:none; font-weight:bold; margin-top:20px;}
+	.homework-tutorial{background: url(../image/icon/homework-tutorial.png) center 0px no-repeat; color:#bdbcbc;}
+	.homework-tutorial:hover{background: url(../image/icon/homework-tutorial.png) center -115px no-repeat; color:#990000;}
+	.exam-result{background: url(../image/icon/exam-result.png) center 0px no-repeat; color:#bdbcbc;}
+	.exam-result:hover{background: url(../image/icon/exam-result.png) center -115px no-repeat; color:#990000;}
+	.timetable{background: url(../image/icon/timetable.png) center 0px no-repeat; color:#bdbcbc;}
+	.timetable:hover{background: url(../image/icon/timetable.png) center -115px no-repeat; color:#990000;}
+	.exam_scheduler{background: url(../image/icon/exam-scheduler.png) center 0px no-repeat; color:#bdbcbc;}
+	.exam_scheduler:hover{background: url(../image/icon/exam-scheduler.png) center -115px no-repeat; color:#990000;}
+	.Attendance{background: url(../image/icon/Attendance-Management.png) center 0px no-repeat; color:#bdbcbc;}
+	.Attendance:hover{background: url(../image/icon/Attendance-Management.png) center -115px no-repeat; color:#990000;}
+	.fine{background: url(../image/icon/fine.png) center 0px no-repeat; color:#bdbcbc;}
+	.fine:hover{background: url(../image/icon/fine.png) center -115px no-repeat; color:#990000;}
+	.miscellaneous{background: url(../image/icon/miscelluanes.png) center 0px no-repeat; color:#bdbcbc;}
+	.miscellaneous:hover{background: url(../image/icon/miscelluanes.png) center -115px no-repeat; color:#990000;}
+	.payroll{background: url(../image/icon/payroll.png) center 0px no-repeat; color:#bdbcbc;}
+	.payroll:hover{background: url(../image/icon/payroll.png) center -115px no-repeat; color:#990000;}
+	.student_fee{background: url(../image/icon/student-fee.png) center 0px no-repeat; color:#bdbcbc;}
+	.student_fee:hover{background: url(../image/icon/student-fee.png) center -115px no-repeat; color:#990000;}
+	.account{background: url(../image/icon/account.png) center 0px no-repeat; color:#bdbcbc;}
+	.account:hover{background: url(../image/icon/account.png) center -115px no-repeat; color:#990000;}
+	.mass-mail{background: url(../image/icon/mass-mail.png) center 0px no-repeat; color:#bdbcbc;}
+	.mass-mail:hover{background: url(../image/icon/mass-mail.png) center -115px no-repeat; color:#990000;}
+	.sms{background: url(../image/icon/sms.png) center 0px no-repeat; color:#bdbcbc;}
+	.sms:hover{background: url(../image/icon/sms.png) center -115px no-repeat; color:#990000;}
+	.mailing{background: url(../image/icon/mail.png) center 0px no-repeat; color:#bdbcbc;}
+	.mailing:hover{background: url(../image/icon/mail.png) center -115px no-repeat; color:#990000;}
+	.holiday{background: url(../image/icon/holiday.png) center 0px no-repeat; color:#bdbcbc;}
+	.holiday:hover{background: url(../image/icon/holiday.png) center -115px no-repeat; color:#990000;}
+	.job-opping{background: url(../image/icon/job.png) center 0px no-repeat; color:#bdbcbc;}
+	.job-opping:hover{background: url(../image/icon/job.png) center -115px no-repeat; color:#990000;}
+	.leave{background: url(../image/icon/leave.png) center 0px no-repeat; color:#bdbcbc;}
+	.leave:hover{background: url(../image/icon/leave.png) center -115px no-repeat; color:#990000;}
+	.grievance{background: url(../image/icon/grivance.png) center 0px no-repeat; color:#bdbcbc;}
+	.grievance:hover{background: url(../image/icon/grivance.png) center -115px no-repeat; color:#990000;}
+	.appointment{background: url(../image/icon/appointment.png) center 0px no-repeat; color:#bdbcbc;}
+	.appointment:hover{background: url(../image/icon/appointment.png) center -115px no-repeat; color:#990000;}
+	.student_desk{background: url(../image/icon/desk.png) center 0px no-repeat; color:#bdbcbc;}
+	.student_desk:hover{background: url(../image/icon/desk.png) center -115px no-repeat; color:#990000;}
+		
+		
+		
+		
+		
+		
+.search_panel
+{
+	//width:800px;
+	height:100px;
+	//border:1px solid black;
+	margin:auto;
+	padding-top:50px;
+	text-align:center;
+}
+.search_panel input[type="text"],.search_panel select, .search_panel input[type="submit"], .search_panel input[type="reset"], input[type="submit"]
+{
+	height:30px;
+	width:200px;
+	//background:border:1px solid blue;
+	border-radius:5px;
+	padding:5px;
+	margin-top:20px;
+	
+}
