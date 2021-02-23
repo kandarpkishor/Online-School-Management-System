@@ -1,0 +1,1 @@
+connection.php is use to create connection between application and database.
